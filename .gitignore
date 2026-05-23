@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Dependencies
+node_modules/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*
+*secret*
+*Secrets*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build output
+dist/
+build/
+.next/
+out/
+
+# Package locks (only ignore if not needed; skills repos usually don't need them)
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
